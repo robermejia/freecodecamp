@@ -1,1 +1,1 @@
-# Resulución de cursos de Freecodecamp
+# Resolución de cursos de Freecodecamp
