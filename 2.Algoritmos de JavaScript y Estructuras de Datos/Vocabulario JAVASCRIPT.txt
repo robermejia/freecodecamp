@@ -1,0 +1,12 @@
+DECLARAR: CREAR
+
+camelCase: los nombres de variables de múltiples palabras tienen la primera palabra en minúsculas y la primera letra de cada palabra posterior en mayúsculas.
+
+Nota: Es común que los desarrolladores usen identificadores de variables en mayúsculas para valores inmutables y minúsculas o camelCase para valores mutables (objetos y arreglos). 
+
+----
+Llamar: Llamar o invocar (en una funcion).
+
+Return: Declaración de devolución.
+
+Ambito: Se refiere a la visibilidad de las variables.
