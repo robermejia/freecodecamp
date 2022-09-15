@@ -238,7 +238,7 @@ multilínea */
 // // Cambia solo el código debajo de esta línea
 // const myArray = ["Hola Mundo", 2];
 
-/* ========== #40. Anida un arreglo dentro de otro arreglo ========== */ 
+/* ========== #40. Anida un arreglo dentro de otro arreglo ========== */
 // // Cambia solo el código debajo de esta línea
 // const myArray = [["Roberto", 33], ["Claudia", 28]];
 
@@ -263,7 +263,7 @@ multilínea */
 //     [7, 8, 9],
 //     [[10, 11, 12], 13, 14],
 //   ];
-  
+
 //   const myData = myArray[2][1];
 
 /* ========== #44. Manipula arreglos con push() ========== */
@@ -298,28 +298,26 @@ multilínea */
 // function reusableFunction() {
 //     console.log("Hi World");
 //   }
-  
+
 //   reusableFunction();
 
 /* ========== #50. Pasa valores a las funciones utilizando argumentos ========== */
 // function functionWithArgs(a, b) {
 //     console.log(a + b);
 //   }
-  
-//   functionWithArgs(3, 5);
 
+//   functionWithArgs(3, 5);
 
 /* ////////////////////////////// URL ////////////////////////////// */
 // https://youtu.be/ivdTnPl1ND0?t=9509
-
 
 /* ========== #51. Devuelve un valor de una función utilizando "Return" ========== */
 // function timesFive(par1) {
 //     return par1 * 5;
 //   }
-  
+
 //  timesFive(2);
- 
+
 /* ========== #52. Ámbito global y funciones ========== */
 // Declara la variable myGlobal debajo de esta línea
 // let myGlobal = 10;
@@ -398,16 +396,16 @@ multilínea */
 /* ========== #57. Permanece en línea ========== */
 // function nextInLine(arr, item) {
 //     // Cambia solo el código debajo de esta línea
-  
-//     arr.push(item);        // Agregar al final de la línea 
+
+//     arr.push(item);        // Agregar al final de la línea
 //     return arr.shift();    // remover
-    
+
 //     // Cambia solo el código encima de esta línea
 //   }
-  
+
 //   // Configuración
 //   const testArr = [1, 2, 3, 4, 5];
-  
+
 //   // Muestra el código
 //   console.log("Before: " + JSON.stringify(testArr));
 //   console.log(nextInLine(testArr, 6));
@@ -416,9 +414,9 @@ multilínea */
 /* ========== #58. Comprende los valores booleanos ========== */
 // function welcomeToBooleans() {
 //     // Cambia solo el código debajo de esta línea
-  
+
 //     return true; // Cambia esta línea
-  
+
 //     // Cambia solo el código encima de esta línea
 //   }
 
@@ -441,7 +439,7 @@ multilínea */
 //     }
 //     return "Not Equal";
 //   }
-  
+
 //   testEqual(10);
 
 /* ////////////////////////////// URL ////////////////////////////// */
@@ -455,7 +453,7 @@ multilínea */
 //     }
 //     return "Not Equal";
 //   }
-  
+
 //   testStrict(10);
 
 /* ========== #62. Practica comparando diferentes valores ========== */
@@ -466,7 +464,7 @@ multilínea */
 //     }
 //     return "Not Equal";
 //   }
-  
+
 //   compareEquality(10, "10");
 
 /* ========== #63.Comparación con el operador de desigualdad  ========== */
@@ -477,7 +475,7 @@ multilínea */
 //     }
 //     return "Equal";
 //   }
-  
+
 //   testNotEqual(10);
 
 /* ========== #64.Comparación con el operador de estricta desigualdad ========== */
@@ -488,7 +486,7 @@ multilínea */
 //     }
 //     return "Equal";
 //   }
-  
+
 //   testStrictNotEqual(10);
 
 /* ========== #65. Comparación con el operador "mayor que" ========== */
@@ -496,14 +494,14 @@ multilínea */
 //     if (val > 100) {  // Cambia esta línea
 //       return "Over 100";
 //     }
-  
+
 //     if (val > 10) {  // Cambia esta línea
 //       return "Over 10";
 //     }
-  
+
 //     return "10 or Under";
 //   }
-  
+
 //   testGreaterThan(10);
 
 /* ========== #66. Comparación con el operador "mayor o igual que" ========== */
@@ -511,14 +509,14 @@ multilínea */
 //     if (val >= 20) {  // Cambia esta línea
 //       return "20 or Over";
 //     }
-  
+
 //     if (val >= 10) {  // Cambia esta línea
 //       return "10 or Over";
 //     }
-  
+
 //     return "Less than 10";
 //   }
-  
+
 //   testGreaterOrEqual(10);
 
 /* ========== #67. Comparación con el operador "menor que" ========== */
@@ -526,14 +524,14 @@ multilínea */
 //     if (val < 25) {  // Cambia esta línea
 //       return "Under 25";
 //     }
-  
+
 //     if (val < 55) {  // Cambia esta línea
 //       return "Under 55";
 //     }
-  
+
 //     return "55 or Over";
 //   }
-  
+
 //   testLessThan(10);
 
 /* ========== #68. Comparación con el operador "menor o igual que" ========== */
@@ -541,62 +539,61 @@ multilínea */
 //     if (val <= 12) {  // Cambia esta línea
 //       return "Smaller Than or Equal to 12";
 //     }
-  
+
 //     if (val <= 24) {  // Cambia esta línea
 //       return "Smaller Than or Equal to 24";
 //     }
-  
+
 //     return "More Than 24";
 //   }
-  
+
 //   testLessOrEqual(10);
 
 /* ========== #69. Comparaciones con el operador lógico "and" ========== */
 // function testLogicalAnd(val) {
 //     // Cambia solo el código debajo de esta línea
-  
+
 //     if (val <= 50 && val >= 25) {
 //         return "Yes";
 //     }
-  
+
 //     // Cambia solo el código encima de esta línea
 //     return "No";
 //   }
-  
+
 //   testLogicalAnd(10);
 
 /* ========== #70. Comparaciones con el operador lógico "or" ========== */
 // function testLogicalOr(val) {
 //     // Cambia solo el código debajo de esta línea
-  
+
 //     if (val > 20 || val < 10) {
 //       return "Outside";
 //     }
-  
+
 //     // Cambia solo el código encima de esta línea
 //     return "Inside";
 //   }
-  
+
 //   testLogicalOr(15);
 
 /* ////////////////////////////// URL ////////////////////////////// */
-
 
 /* ========== #71. Introducción a las sentencias "Else" ========== */
 // function testElse(val) {
 //     let result = "";
 //     // Cambia solo el código debajo de esta línea
-  
+
 //     if (val > 5) {
 //       result = "Bigger than 5";
 //     } else {
 //       result = "5 or Smaller";
 //     }
-  
+
 //     // Cambia solo el código encima de esta línea
 //     return result;
 //   }
-  
+
 //   testElse(4);
 
 /* ========== #72.Introducción a las sentencias "Else If" ========== */
@@ -608,9 +605,9 @@ multilínea */
 //       return "Smaller than 5";
 //     } else {
 //       return "Between 5 and 10";
-//     } 
+//     }
 //   }
-  
+
 //   testElseIf(7);
 
 /* ========== #73. Orden lógico de las sentencias "if else" ========== */
@@ -623,7 +620,7 @@ multilínea */
 //       return "Greater than or equal to 10";
 //     }
 //   }
-  
+
 //   orderMyLogic(7);
 
 /* ========== #74. Encadena sentencias if else ========== */
@@ -642,7 +639,7 @@ multilínea */
 //     }
 //     // Cambia solo el código encima de esta línea
 //   }
-  
+
 //   testSize(7);
 
 /* ========== #75. Código de golf ========== */
@@ -688,11 +685,11 @@ multilínea */
 //         answer = "delta";
 //         break;
 //     }
-  
+
 //     // Cambia solo el código encima de esta línea
 //     return answer;
 //   }
-  
+
 //   caseInSwitch(1);
 
 /* ========== #77. Agrega una opción predeterminada en las declaraciones switch ========== */
@@ -713,11 +710,11 @@ multilínea */
 //       answer = "stuff";
 //       break;
 //     }
-  
+
 //     // Cambia solo el código encima de esta línea
 //     return answer;
 //   }
-  
+
 //   switchOfStuff(1);
 
 /* ========== #78.  ========== */
@@ -725,7 +722,7 @@ multilínea */
 //     let answer;
 //     // Cambia solo el código debajo de esta línea
 //     switch (val) {
-//       case 1: 
+//       case 1:
 //       case 2:
 //       case 3:
 //         answer = "Low";
@@ -744,14 +741,14 @@ multilínea */
 //     // Cambia solo el código encima de esta línea
 //     return answer;
 //   }
-  
+
 //   sequentialSizes(1);
 
 /* ========== #79. Reemplazando cadenas de "If Else" por "Switch" ========== */
 // function chainToSwitch(val) {
 //     let answer = "";
 //     // Cambia solo el código debajo de esta línea
-  
+
 //     switch (val) {
 //       case "bob":
 //       answer = "Marley";
@@ -769,7 +766,7 @@ multilínea */
 //       answer = "Ate Nine";
 //       break;
 //     }
-  
+
 //     // Cambia solo el código encima de esta línea
 //     return answer;
 //   }
@@ -780,12 +777,11 @@ multilínea */
 //     return a < b;
 //     // Cambia solo el código encima de esta línea
 //   }
-  
+
 //   isLess(10, 15);
 
 /* ////////////////////////////// URL ////////////////////////////// */
 // https://youtu.be/ivdTnPl1ND0?t=16794
-
 
 /* ========== #81. Patrón de devolución anticipado para funciones ========== */
 // // Configuración
@@ -796,10 +792,10 @@ multilínea */
 //     }
 //     console.log(abTest = undefined);
 //     // Cambia solo el código encima de esta línea
-  
+
 //     return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
 //   }
-  
+
 //   abTest(-2,2);
 
 /* ========== #82. Conteo de cartas ========== */
@@ -854,7 +850,7 @@ multilínea */
 //     "shirt": "jersey",
 //     "shoes": "cleats"
 //   };
-  
+
 //   // Cambia solo el código debajo de esta línea
 //   const hatValue = testObj.hat;      // Cambia esta línea
 //   const shirtValue = testObj.shirt;    // Cambia esta línea
@@ -866,7 +862,7 @@ multilínea */
 //     "my side": "veggies",
 //     "the drink": "water"
 //   };
-  
+
 //   // Cambia solo el código debajo de esta línea
 //   const entreeValue = testObj["an entree"];   // Cambia esta línea
 //   const drinkValue = testObj["the drink"];    // Cambia esta línea
@@ -878,7 +874,7 @@ multilínea */
 //     16: "Montana",
 //     19: "Unitas"
 //   };
-  
+
 //   // Cambia solo el código debajo de esta línea
 //   const playerNumber = 16;  // Cambia esta línea
 //   const player = testObj[playerNumber];   // Cambia esta línea
@@ -891,7 +887,7 @@ multilínea */
 //     "tails": 1,
 //     "friends": ["freeCodeCamp Campers"]
 //   };
-  
+
 //   // Cambia solo el código debajo de esta línea
 //   myDog.name = "Happy Coder";
 
@@ -902,7 +898,7 @@ multilínea */
 //     "tails": 1,
 //     "friends": ["freeCodeCamp Campers"]
 //   };
-  
+
 //   myDog.bark = "woof";
 
 /* ========== #89. Elimina propiedades en un objeto de JavaScript ========== */
@@ -914,7 +910,7 @@ multilínea */
 //     "friends": ["freeCodeCamp Campers"],
 //     "bark": "woof"
 //   };
-  
+
 //   // Cambia solo el código debajo de esta línea
 //   delete myDog.tails;
 
@@ -922,7 +918,7 @@ multilínea */
 // // Configuración
 // function phoneticLookup(val) {
 //     let result = "";
-  
+
 //     // Cambia solo el código debajo de esta línea
 //     const lookup = {
 //       "alpha": "Adams",
@@ -932,62 +928,114 @@ multilínea */
 //       "echo": "Easy",
 //       "foxtrot": "Frank"
 //     };
-    
-  
+
 //     // Cambia solo el código encima de esta línea
 //     result = lookup[val];
 //     return result;
 //   }
-  
+
 //   phoneticLookup("charlie");
 
 /* ========== #91. Verifica las propiedades de un objeto ========== */
+// function checkObj(obj, checkProp) {
+//     // Cambia solo el código debajo de esta línea
+//     if (obj.hasOwnProperty(checkProp)) {
+//         return obj[checkProp];
+//     } else {
+//         return "Not Found";
+//     }
+//     // Cambia solo el código encima de esta línea
+// }
+
+/* ========== #92. Manipulando objectos complejos ========== */
+// const myMusic = [{
+//         artist: "Billy Joel",
+//         title: "Piano Man",
+//         release_year: 1973,
+//         formats: ["CD", "8T", "LP"],
+//         gold: true,
+//     },
+//     {
+//         artist: "Billy Joel",
+//         title: "Piano Man",
+//         release_year: 1973,
+//         formats: ["CD", "8T", "LP"],
+//         gold: true,
+//     },
+// ];
+
+/* ========== #93. Accede a objetos anidados ========== */
+// const myStorage = {
+//     "car": {
+//         "inside": {
+//             "glove box": "maps",
+//             "passenger seat": "crumbs"
+//         },
+//         "outside": {
+//             "trunk": "jack"
+//         }
+//     }
+// };
+
+// const gloveBoxContents = myStorage.car.inside["glove box"];
+
+/* ========== #94. Accede a arreglos anidados ========== */
+// const myPlants = [{
+//         type: "flowers",
+//         list: [
+//             "rose",
+//             "tulip",
+//             "dandelion"
+//         ]
+//     },
+//     {
+//         type: "trees",
+//         list: [
+//             "fir",
+//             "pine",
+//             "birch"
+//         ]
+//     }
+// ];
+
+// const secondTree = myPlants[1].list[1];
+
+/* ========== #95. Colección de discos ========== */
+// // Configuración
+// const recordCollection = {
+//     2548: {
+//         albumTitle: 'Slippery When Wet',
+//         artist: 'Bon Jovi',
+//         tracks: ['Let It Rock', 'You Give Love a Bad Name']
+//     },
+//     2468: {
+//         albumTitle: '1999',
+//         artist: 'Prince',
+//         tracks: ['1999', 'Little Red Corvette']
+//     },
+//     1245: {
+//         artist: 'Robert Palmer',
+//         tracks: []
+//     },
+//     5439: {
+//         albumTitle: 'ABBA Gold'
+//     }
+// };
+
+// // Cambia solo el código debajo de esta línea
+// function updateRecords(records, id, prop, value) {
+//     if (value === "") {
+//         delete records[id][prop]
+//     } else if (prop === "tracks") {
+//         records[id][prop] = records[id][prop] || [];
+//         records[id][prop].push(value)
+//     } else {
+//         records[id][prop] = value;
+//     }
+//     return records;
+// }
+
+// updateRecords(recordCollection, 5439, 'artist', 'ABBA');
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ========== #96. Itera con el bucle "while" de JavaScript ========== */
